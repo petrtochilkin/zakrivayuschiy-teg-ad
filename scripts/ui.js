@@ -17,3 +17,7 @@ document.querySelectorAll(".card").forEach((card) => {
     }),
   );
 });
+
+document
+  .querySelector(".dialog__button")
+  .addEventListener("click", () => saveDialog.close());
